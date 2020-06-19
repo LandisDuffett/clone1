@@ -1,0 +1,36 @@
+.back {
+    background-color: darkgreen;
+}
+
+body {
+    color: lightgray;
+}
+
+.bg-image {
+    background-image: url('ibm.jpeg');
+    background-size: cover;
+    min-height: 80vh;
+}
+
+.card-white {
+  background: white;
+  padding: 30px;
+  border-radius: 4px;
+  margin: 2rem;
+  margin-top: 0;
+  min-height: 90%;
+}
+
+.darker {
+    color: black;
+}
+
+.green {
+    color: darkgreen;
+}
+
+.formfont {
+    font-family: 'Press Start 2P', cursive;
+    color: darkgreen;
+    font-size: 18px;
+}
