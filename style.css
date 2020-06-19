@@ -38,4 +38,5 @@ body {
 .stick {
     height: 80px;
     width: 10px;
+    display: inline-block;
 }
