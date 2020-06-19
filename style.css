@@ -34,3 +34,8 @@ body {
     color: darkgreen;
     font-size: 18px;
 }
+
+.stick {
+    height: 80px;
+    width: 10px;
+}
