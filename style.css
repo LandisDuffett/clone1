@@ -178,3 +178,9 @@ div.card-white-big svg.iconify {
     margin-bottom: 1rem;
 }
 
+.bottomtext {
+    display: flex;
+    text-align: justify;
+    align-content: center;
+    margin: 0;
+}
