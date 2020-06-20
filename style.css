@@ -26,7 +26,7 @@ body {
 }
 
 .green {
-    color: darkgreen;
+    color: rgb(16, 108, 124);
 }
 
 .formfont {
@@ -36,7 +36,12 @@ body {
 }
 
 .stick {
-    height: 80px;
-    width: 10px;
-    display: inline-block;
+    height: 8rem;
+    width: .5rem;
+    margin-top: 6rem;
 }
+
+.blurb {
+    margin-top: 6rem;
+}
+
