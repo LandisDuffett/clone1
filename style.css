@@ -72,8 +72,25 @@ body {
   div.hide {
     display: none;
   }
+  div.short {
+      height: 100%;
+  }
+  div.card-white {
+  background: white;
+  padding: 50px;
+  border-radius: 4px;
+  margin: 2rem;
+  margin-top: 0;
+  height: 438px;
+  position: absolute:
+  width: 100%;
+  }
+  p.p-2 {
+      font-size: 11px;
+  }
 }
 
 .iconify {
     color: darkgreen;
 }
+
