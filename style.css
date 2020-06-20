@@ -27,6 +27,11 @@ body {
 
 .green {
     color: rgb(16, 108, 124);
+    text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;  
 }
 
 .formfont {
@@ -45,3 +50,12 @@ body {
     margin-top: 6rem;
 }
 
+.btn {
+    color: darkgreen;
+}
+
+@media screen and (max-width: 991px) {
+  div.hide {
+    display: none;
+  }
+}
