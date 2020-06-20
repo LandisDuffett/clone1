@@ -31,7 +31,7 @@ body {
   border-radius: 4px;
   margin: 2rem;
   margin-top: 0;
-  height: 378px;
+  height: 426px;
   position: absolute;
 }
 
@@ -75,6 +75,10 @@ body {
   div.big {
       display: none;
   }
+
+  div h1.big {
+      display: none;
+  }
   div.short {
       height: 100%;
   }
@@ -91,8 +95,9 @@ body {
   position: unset;
   }
 
+
   div.card-white svg {
-      margin-bottom: 1.75rem;
+      margin-bottom: 0rem;
   }
   p.p-2 {
       font-size: 11px;
@@ -103,14 +108,22 @@ div.small {
     font-size: 1.5rem;
 }
 svg.iconify {
-    margin-top: 1rem;
+    margin-top: 0rem;
 }
 div.small p{
     font-size: 1rem;
 }
 
+div p.small {
+    font-size: 1.5rem;
+}
+
 @media screen and (min-width: 992px) {
     div.small {
+        display: none;
+    }
+
+    div p.small {
         display: none;
     }
 }
@@ -130,5 +143,10 @@ div.small p{
     margin-top: 120px;
 }
 
+.eniac {
+    max-width: 100%;
+    margin-top: 8rem;
+    margin-bottom: 8rem;
+}
 
 
