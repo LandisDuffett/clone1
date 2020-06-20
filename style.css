@@ -32,7 +32,8 @@ body {
   margin: 2rem;
   margin-top: 0;
   height: 378px;
-  position: absolute:
+  position: absolute;
+  drop-shadow(16px 16px 10px black);
 }
 
 .darker {
@@ -82,8 +83,9 @@ body {
   margin: 2rem;
   margin-top: 0;
   height: 438px;
-  position: absolute:
+  position: absolute;
   width: 100%;
+
   }
   p.p-2 {
       font-size: 11px;
@@ -96,4 +98,6 @@ body {
 .iconify1 {
     color: darkgreen;
 }
+
+
 
