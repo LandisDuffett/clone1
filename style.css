@@ -12,13 +12,27 @@ body {
     min-height: 80vh;
 }
 
-.card-white {
+.short {
+    height: 300px;
+}
+
+.card-white1 {
   background: white;
   padding: 30px;
   border-radius: 4px;
   margin: 2rem;
   margin-top: 0;
   min-height: 90%;
+}
+
+.card-white {
+  background: white;
+  padding: 50px;
+  border-radius: 4px;
+  margin: 2rem;
+  margin-top: 0;
+  height: 378px;
+  position: absolute:
 }
 
 .darker {
@@ -58,4 +72,11 @@ body {
   div.hide {
     display: none;
   }
+  div.card-white {
+      position: relative;
+  }
+}
+
+.iconify {
+    color: darkgreen;
 }
