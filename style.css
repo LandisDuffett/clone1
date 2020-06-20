@@ -91,6 +91,9 @@ body {
 }
 
 .iconify {
+    color: black;
+}
+.iconify1 {
     color: darkgreen;
 }
 
