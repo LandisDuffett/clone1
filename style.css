@@ -22,7 +22,7 @@ body {
   border-radius: 4px;
   margin: 2rem;
   margin-top: 0;
-  min-height: 90%;
+  max-height: 80%;
 }
 
 .card-white {
@@ -33,7 +33,6 @@ body {
   margin-top: 0;
   height: 378px;
   position: absolute;
-  drop-shadow(16px 16px 10px black);
 }
 
 .darker {
@@ -73,8 +72,14 @@ body {
   div.hide {
     display: none;
   }
+  div.big {
+      display: none;
+  }
   div.short {
       height: 100%;
+  }
+  div h3.top {
+      margin-top: 100px;
   }
   div.card-white {
   background: white;
@@ -83,11 +88,31 @@ body {
   margin: 2rem;
   margin-top: 0;
   height: 438px;
-  position: absolute;
+  position: unset;
+  }
+
+  div.card-white svg {
+      margin-bottom: 1.75rem;
   }
   p.p-2 {
       font-size: 11px;
   }
+}
+
+div.small {
+    font-size: 1.5rem;
+}
+svg.iconify {
+    margin-top: 1rem;
+}
+div.small p{
+    font-size: 1rem;
+}
+
+@media screen and (min-width: 992px) {
+    div.small {
+        display: none;
+    }
 }
 
 .iconify {
@@ -95,6 +120,14 @@ body {
 }
 .iconify1 {
     color: darkgreen;
+}
+
+.top {
+    margin-top: 100px;
+}
+
+.top2 {
+    margin-top: 120px;
 }
 
 
