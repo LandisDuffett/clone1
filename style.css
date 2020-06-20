@@ -35,6 +35,24 @@ body {
   position: absolute;
 }
 
+.card-white2 {
+    background: whitesmoke;
+    padding: 30px;
+    border-radius: 4px;
+    margin: 2rem;
+    margin-top: 2rem;
+    height: 20rem;
+}
+
+.card-white-big {
+    background: whitesmoke;
+    padding: 30px;
+    border-radius: 4px;
+    margin: 0rem;
+    margin-bottom: 2rem;
+    height: 24rem;
+}
+
 .darker {
     color: black;
 }
