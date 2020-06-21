@@ -1,43 +1,41 @@
-.back {
-    background-color: darkgreen;
-}
-
 body {
     color: lightgray;
 }
 
+.back {
+    background-color: darkgreen;
+}
+
 .bg-image {
-    background-image: url('ibm.jpeg');
+    background-image: url('https://lh3.googleusercontent.com/-ngyzK70s1_4/WluWsSArohI/AAAAAAABIdY/B4kXepmqhf8vd3oet8PHGUoq7Dlh8FQ5wCHMYBhgL/w9999/ibm-705-console.jpg');
     background-size: cover;
     min-height: 80vh;
 }
 
-.short {
-    height: 300px;
+
+.card-white {
+    background: white;
+    padding-top: 1.75rem!important;
+    padding: 3rem;
+    padding-bottom: 2rem!important;
+    border-radius: 4px;
+    margin: 2rem;
+    height: 426px;
+    position: absolute;
 }
 
 .card-white1 {
-  background: white;
-  padding: 30px;
-  border-radius: 4px;
-  margin: 2rem;
-  margin-top: 0;
-  max-height: 80%;
-}
-
-.card-white {
-  background: white;
-  padding: 50px;
-  border-radius: 4px;
-  margin: 2rem;
-  margin-top: 0;
-  height: 426px;
-  position: absolute;
+    background: white;
+    padding: 1.75rem;
+    border-radius: 4px;
+    margin: 2rem;
+    margin-top: 0;
+    max-height: 80%;
 }
 
 .card-white2 {
     background: whitesmoke;
-    padding: 30px;
+    padding: 3rem;
     border-radius: 4px;
     margin: 2rem;
     margin-top: 2rem;
@@ -45,6 +43,7 @@ body {
     display: flex;
     align-items: center;
     text-align: center;
+    font-size: 1rem;
 }
 
 .card-white-big {
@@ -64,12 +63,12 @@ body {
 }
 
 .green {
-    color: rgb(16, 108, 124);
+    color: rgb(18, 168, 76);
     text-shadow:
-    -1px -1px 0 #000,
-    1px -1px 0 #000,
-    -1px 1px 0 #000,
-    1px 1px 0 #000;  
+    -1px -1px 0 #fff,
+    1px -1px 0 #fff,
+    -1px 1px 0 #fff,
+    1px 1px 0 #fff;  
 }
 
 .formfont {
@@ -79,67 +78,57 @@ body {
 }
 
 .stick {
-    height: 8rem;
     width: .5rem;
-    margin-top: 6rem;
-}
-
-.blurb {
-    margin-top: 6rem;
+    height: 100%;
+    padding: 0;
 }
 
 .btn {
     color: darkgreen;
 }
 
+
 @media screen and (max-width: 767px) {
-  div.hide {
-    display: none;
-  }
-  div.big {
-      display: none;
-  }
-
-  div h1.big {
-      display: none;
-  }
-  div.short {
-      height: 100%;
-  }
-  div h3.top {
-      margin-top: 100px;
-  }
-  div.card-white {
-  background: white;
-  padding: 50px;
-  border-radius: 4px;
-  margin: 2rem;
-  margin-top: 0;
-  height: 438px;
-  position: unset;
-  }
-
-
-  div.card-white svg {
-      margin-bottom: 0rem;
-  }
-  p.p-2 {
-      font-size: 11px;
-  }
-}
-
-div.small {
-    font-size: 1.5rem;
-}
-svg.iconify {
-    margin-top: 0rem;
-}
-div.small p{
-    font-size: 1rem;
-}
-
-div p.small {
-    font-size: 1.5rem;
+    div.hide {
+        display: none;
+    }
+    div.big {
+        display: none;
+    }
+    
+    div h1.big {
+        display: none;
+    }
+    div.short {
+        height: 100%;
+    }
+    div h3.top {
+        margin-top: 100px;
+    }
+    div.card-white {
+        background: white;
+        padding: 4rem;
+        border-radius: 4px;
+        margin: 2rem;
+        padding-bottom: 0rem!important;
+        height: 23rem;
+        position: unset;
+    }
+    
+    div.card-white-big p {
+        font-size: 0.7rem;
+    }
+    
+    div.card-white2 p {
+        font-size: 0.7rem;
+    }
+    
+    div.card-white svg {
+        margin-bottom: 0rem;
+    }
+    p.p-2 {
+        font-size: .5rem;
+    }
 }
 
 @media screen and (min-width: 768px) {
@@ -152,11 +141,20 @@ div p.small {
     }
 }
 
-.iconify {
-    color: black;
+.short {
+    height: 300px;
 }
-.iconify1 {
-    color: darkgreen;
+
+div.small {
+    font-size: 1rem;
+}
+
+div.small p{
+    font-size: 1rem;
+}
+
+div p.small {
+    font-size: 1.5rem;
 }
 
 .top {
@@ -164,13 +162,12 @@ div p.small {
 }
 
 .top2 {
-    margin-top: 120px;
+    margin-top: 15rem;
 }
 
-.eniac {
-    max-width: 100%;
-    margin-top: 8rem;
-    margin-bottom: 8rem;
+svg.iconify {
+    margin-top: 0rem;
+    color: black;
 }
 
 div.card-white-big svg.iconify {
